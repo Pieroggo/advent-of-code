@@ -1,3 +1,4 @@
+#part 1 and 2 simultanously
 file=open("inputDay2.txt","r")
 input=file.read()
 lines=input.split("\n")

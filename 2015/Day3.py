@@ -1,5 +1,6 @@
 file=open("inputDay3.txt","r")
 input=file.read()
+#part 1
 housesVisited=[[0,0]]
 currentHouse=[0,0]
 for char in input:
@@ -14,6 +15,7 @@ for char in input:
     if(housesVisited.count([currentHouse[0],currentHouse[1]])==0):
         housesVisited.append([currentHouse[0],currentHouse[1]])
 print(f"Houses visited without Robo: {len(housesVisited)}")
+#part 2
 housesVisited=[]
 currentSantaHouse=[0,0]
 currentRoboHouse=[0,0]

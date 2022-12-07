@@ -1,3 +1,4 @@
+#part 1 and 2 done simultanously
 file=open("inputDay1.txt","r")
 input=file.read()
 currentFloor=0
